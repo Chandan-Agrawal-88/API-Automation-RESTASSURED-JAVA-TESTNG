@@ -1,31 +1,30 @@
 # 🧪 API Automation Framework - `ApiAutomationDemo`
 
-📁 Project Structure
+# Project Structure
+
+```tree
 ApiAutomationDemo/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   ├── com.api.tests/
-│   │   │   │   ├── CreatePetAPI.java
-│   │   │   │   ├── CreateUserTestAPI.java
-│   │   │   │   └── CreateUserTestAPI2.java
-│   │   │   ├── com.api.utils/
-│   │   │   │   ├── ConfigManager.java
-│   │   │   │   ├── FileHandlingUtils.java
-│   │   │   │   └── TestDataGenerator.java
-│   ├── resources/
-│   │   ├── configs/
-│   │   │   ├── dev.properties
-│   │   │   └── test.properties
-│   │   ├── petOperations/
-│   │   │   └── createPetPayload.json
-│   │   ├── userOperations/
-│   │   │   └── createUserPayload.json
-│   │   └── logback.xml
-├── testng.xml
+│   │   │   └── com.api.tests/
+│   │   │       ├── CreatePetAPI.java
+│   │   │       ├── CreateUserTestAPI.java
+│   │   │       └── CreateUserTestAPI2.java
+│   │   └── resources/
+│   │       ├── configs/
+│   │       │   ├── dev.properties
+│   │       │   └── test.properties
+│   │       ├── petOperations/
+│   │       │   └── createPetPayload.json
+│   │       └── userOperations/
+│   │           └── createUserPayload.json
+├── logback.xml
 ├── pom.xml
+├── testng.xml
 ├── allure-results/
 └── README.md
+
 
 ## 🧰 Tech Stack
 
