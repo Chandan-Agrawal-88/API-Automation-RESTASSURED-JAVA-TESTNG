@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="UserAPISuite" verbose="1" >
+  <parameter name="numberOfUsers" value="5"/> <!-- Define the parameter here -->
+
+  <test name="UserCreationTest" >
+    <classes>
+      <class name="com.api.tests.CreateUserTestAPI6" />
+    </classes>
+  </test>
+</suite>
