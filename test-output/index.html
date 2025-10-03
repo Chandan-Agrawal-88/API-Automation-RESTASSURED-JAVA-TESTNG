@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\chand\AppData\Local\Temp\testng-eclipse-1444928485\testng-customsuite.xml</span>
+                    <span>C:\Users\chand\AppData\Local\Temp\testng-eclipse--291999152\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.CreateUserTestAPI6" class="method navigator-link" hash-for-method="userCreationTest(5)">userCreationTest(5)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.api.tests.CreatePetTestAPI" class="method navigator-link" hash-for-method="createSinglePetTest">createSinglePetTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,17 +121,16 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.api.tests.CreateUserTestAPI6</span>
+              <span class="class-name">com.api.tests.CreatePetTestAPI</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="userCreationTest(5)">
-                  </a> <!-- userCreationTest(5) -->
-                  <span class="method-name">userCreationTest</span>
-                  <span class="parameters">(5)</span>
+                  <a name="createSinglePetTest">
+                  </a> <!-- createSinglePetTest -->
+                  <span class="method-name">createSinglePetTest</span>
                   <em>
-(Verify user creation API is working based on properties file configuration for multiple users)                  </em>
+(Verify single pet creation API is working using TestDataGenerator and matches expected response structure)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -139,21 +138,20 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\chand\AppData\Local\Temp\testng-eclipse-1444928485\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\chand\AppData\Local\Temp\testng-eclipse--291999152\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;parameter name=&quot;numberOfUsers&quot; value=&quot;5&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.api.tests.CreateUserTestAPI6&quot;&gt;
+      &lt;class name=&quot;com.api.tests.CreatePetTestAPI&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;userCreationTest&quot;/&gt;
+          &lt;include name=&quot;createSinglePetTest&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.api.tests.CreateUserTestAPI6 --&gt;
+      &lt;/class&gt; &lt;!-- com.api.tests.CreatePetTestAPI --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -195,9 +193,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'userCreationTest')
-data.setCell(0, 2, 'com.api.tests.CreateUserTestAPI6')
-data.setCell(0, 3, 4025);
+data.setCell(0, 1, 'createSinglePetTest')
+data.setCell(0, 2, 'com.api.tests.CreatePetTestAPI')
+data.setCell(0, 3, 4517);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -228,9 +226,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.api.tests.CreateUserTestAPI6</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.api.tests.CreatePetTestAPI</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">userCreationTest(5)</span>
+                <span class="method-name">createSinglePetTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

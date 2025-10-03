@@ -2,23 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-03T17:23:30 IST" name="Default suite" finished-at="2025-10-03T17:23:34 IST" duration-ms="4170">
+  <suite started-at="2025-10-03T18:47:23 IST" name="Default suite" finished-at="2025-10-03T18:47:28 IST" duration-ms="4642">
     <groups>
     </groups>
-    <test started-at="2025-10-03T17:23:30 IST" name="Default test" finished-at="2025-10-03T17:23:34 IST" duration-ms="4170">
-      <class name="com.api.tests.CreateUserTestAPI6">
-        <test-method signature="userCreationTest(int)[pri:0, instance:com.api.tests.CreateUserTestAPI6@7903d448]" started-at="2025-10-03T17:23:30 IST" name="userCreationTest" description="Verify user creation API is working based on properties file configuration for multiple users" finished-at="2025-10-03T17:23:34 IST" duration-ms="4025" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-10-03T18:47:23 IST" name="Default test" finished-at="2025-10-03T18:47:28 IST" duration-ms="4642">
+      <class name="com.api.tests.CreatePetTestAPI">
+        <test-method signature="createSinglePetTest()[pri:0, instance:com.api.tests.CreatePetTestAPI@24e83d19]" started-at="2025-10-03T18:47:23 IST" name="createSinglePetTest" description="Verify single pet creation API is working using TestDataGenerator and matches expected response structure" finished-at="2025-10-03T18:47:28 IST" duration-ms="4517" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userCreationTest -->
-      </class> <!-- com.api.tests.CreateUserTestAPI6 -->
+        </test-method> <!-- createSinglePetTest -->
+      </class> <!-- com.api.tests.CreatePetTestAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

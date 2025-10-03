@@ -1,12 +1,12 @@
 [
-  {
-    "id": 0,
-    "username": "testuser",
-    "firstName": "John",
-    "lastName": "Doe",
-    "email": "john.doe@example.com",
-    "password": "password123",
-    "phone": "123-456-7890",
-    "userStatus": 0
-  }
+	{
+	  "id": {{user_id}},
+	  "username": "{{username}}",
+	  "firstName": "{{first_name}}",
+	  "lastName": "{{last_name}}",
+	  "email": "{{email}}",
+	  "password": "{{password}}",
+	  "phone": "{{phone}}",
+	  "userStatus": {{user_status}}
+	}
 ]

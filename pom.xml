@@ -78,6 +78,19 @@
 			<version>${aspectj.version}</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- JavaFaker Dependency -->
+    <dependency>
+        <groupId>com.github.javafaker</groupId>
+        <artifactId>javafaker</artifactId>
+        <version>1.0.2</version> <!-- Use the latest stable version -->
+    </dependency>
+
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20231013</version> <!-- Use the latest stable version -->
+    </dependency>
 
 	</dependencies>
 
